@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <SCript src="jquery-3.6.4.min.js"></SCript>
+  <title>Document</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="ancho">
+
+    <picture class="imagen">
+      <img src="imagenes/pullrequest-logo.svg" alt="">
+    </picture>
+
+  </header>
+  <br><br>
+  
+  <div class="icono ancho" id="icono1">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+  
+  <nav class="ancho" id="cajamenu" >
+
+    <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Empresa</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Clientes</a></li>
+    <li><a href="#">Ubicacion</a></li>
+    <li><a href="#">Contactanos</a></li>
+  </ul>
+
+  </nav>
+  <br><br>
+  <section class="ancho" >
+
+    <article class="textos">
+
+      <h1>Creacion de paginas web</h1>
+      <br>
+      <h3>Curso basico de   HTML5 y CSS3</h3>
+        <br><br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis magnam doloribus libero quos consequatur obcaecati aspernatur! Quas rem at, reprehenderit ut nulla recusandae doloribus nesciunt maiores fugiat, accusantium nam?</p>
+<br><br>
+
+      <a href="#" id="mostrar">Ver</a>
+
+    </article>
+
+    <article class="foto">
+      <picture >
+        <img src="imagenes/foto_pullrequest.svg" alt="" id="fotocodigo">
+      </picture>
+    </article>
+
+  </section>
+
+  <br>
+
+  <footer class="ancho">
+    <h1>David Ernesto Aldana Rosel</h1>
+  </footer>
+
+
+  <script>
+
+    $("#icono1").click(function (){
+      $("#cajamenu").slideToggle();
+    });
+
+    $("#mostrar").click(function(){
+      $("#fotocodigo").slideToggle();
+    });
+
+  </script>
+
+
+
+
+</body>
+</html>
